@@ -89,7 +89,7 @@ services:
     volumes:
       - ${DB_LOCATION}:/usr/share/opensearch/data:rw
     ports:
-      - 9200:9200
+      - 9201:9200
     networks:
       - shuffle
     restart: unless-stopped
